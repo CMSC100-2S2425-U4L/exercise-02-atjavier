@@ -6,83 +6,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Personal Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow fixed-top">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col">
-                    <img src="assets/Logos/portfolio.png" width="40" height="40" alt="">
+    <div class="bg-image" style="background-image: url('assets/Background/aboutmebackground.jpg'); height: 100vh;">
+        <div class="bg-dark bg-gradient" style="height: 100vh; --bs-bg-opacity: 0.9;">
+            <nav class="navbar navbar-expand-lg navbar-dark shadow py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <img src="assets/Logos/portfolio.png" width="40" height="40" alt="">
+                        </div>
+                        <div class="col">
+                            <a href="#" class="navbar-brand">Adrian Jericho Javier</a>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="#AboutMe" class="nav-link">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Projects" class="nav-link">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col">
-                    <a href="#" class="navbar-brand">Adrian Jericho Javier</a>
-                </div>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="#AboutMe" class="nav-link">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Projects" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+            </nav>
+            <section id="AboutMe" class="text-light text-center">
+                <div class="container p-2"></div>
+                <div class="container">
+                    <div class="d-flex align-items-center px-5 text-start">
+                        <div class="px-5"></div>
+                        <div class="col-6">
+                            <h5 style="font-weight: 600; font-size: 18px;"><i class="bi bi-dash"
+                                    style="font-size: 25px;"></i>HELLO</h5>
+                            <h1 class="lead" style="font-size: 55px;">I'm <span class="text-warning"
+                                    style="font-weight: 600;">
+                                    Adrian
+                                    Jericho Javier
+                                </span></h2>
+                                <p class="lead text-start" style="font-size: 16px;"> I'm a graduating Computer Science
+                                    student from the
+                                    <span style="font-weight: 600;">University of
+                                        the
+                                        Philippines Los Baños (UPLB)</span>
+                                    With a keen interest in Frontend Web Design, I am always eager to learn and grow.
+                                    I'm
+                                    looking
+                                    foward to opportunities that will allow me to hone my coding skills and explore new
+                                    challenges
+                                    in the tech industry.
+                                </p>
+                        </div>
+                        <div class="px-4"></div>
+                        <img src="assets/Personal Photo/photo.jpg" class="rounded-pill w-50" alt="Description"
+                            class="img-fluid">
+                    </div>
 
-
-    <!-- Showcase -->
-    <div class="container p-4"></div>
-    <section id="AboutMe" class="bg-dark text-light p-5 text-center">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center px-5">
-                <div class="px-5"></div>
-                <div class="col-6">
-                    <h1 style="font-weight: 600;">About Me</h1>
-                    <div class="py-1"></div>
-                    <p class="lead"> Hi! I'm <span style="font-weight: 600;"> Adrian Jericho Javier </span>, a
-                        graduating Computer Science student from the <span class="text-warning">University of the
-                            Philippines Los Baños (UPLB)</span>
-                        With a keen interest in Frontend Web Design, I am always eager to learn and grow. I'm looking
-                        foward to opportunities that will allow me to hone my coding skills and explore new challenges
-                        in the tech industry.
-                    </p>
                 </div>
-                <div class="px-4"></div>
-                <img src="assets/Personal Photo/photo.jpg" class="rounded-pill w-25" alt="Description"
-                    class="img-fluid">
-            </div>
+            </section>
         </div>
-    </section>
+
+    </div>
+
     <section id="Projects" class="p-5 align-items-center shadow-lg">
-        <div class="py-4"></div>
-
-        <div class="container-fluid align-items-center">
-            <div class="col">
-                <h1 class="text-center" style="font-weight: 600;">Projects</h1>
-            </div>
+        <div class="container">
+            <h1 class="text-start pr-5" style="font-weight: 600; font-size: 65px;">Projects</h1>
+            <div class="py-2"></div>
+            <p class="lead" style="font-size: 18px;">
+                Welcome to my projects showcase, where creativity meets functionality. Explore my journey in web design
+                and development through these featured works, each crafted with attention to detail and a passion for
+                innovation. Enjoy!
+            </p>
         </div>
-        <div class="py-2"></div>
 
+        <div class="py-3"></div>
         <div class="row  px-5">
             <div class="col-6">
                 <div class="container-fluid">
-                    <div class="card border-0">
+                    <div class="card shadow">
                         <div class="card-body">
                             <div class="card-title">
-                                <h3 class="text-center" style="font-weight: 600;">UPLBidet</h3>
+                                <h3 class="text-start" style="font-weight: 600;">UPLBidet</h3>
                             </div>
                             <div class="py-2"></div>
                             <div id="UPLBidetCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -112,21 +129,23 @@
                                 </button>
                             </div>
                             <div class="py-3"></div>
-                            <h6 class="text-center">UPLBidet is a user-friendly platform designed to enhance campus
+                            <p class="text-start lead" style="font-size: 18px;">UPLBidet is a user-friendly platform
+                                designed to enhance campus
                                 facilities by providing convenient access to sanitation services. The website shows the
                                 location of every restroom on campus, along with user comments, ratings, and available
                                 amenities, helping users find the best facilities.
-                            </h6>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class="container-fluid">
-                    <div class="card border-0">
+                    <div class="card shadow">
                         <div class="card-body">
                             <div class="card-title">
-                                <h3 class="text-center" style="font-weight: 600;">Food Establishment and Reviews System
+                                <h3 class="text-start" style="font-weight: 600;">Food Establishment and Reviews
+                                    System
                                 </h3>
                             </div>
                             <div class="py-2"></div>
@@ -157,17 +176,130 @@
                                 </button>
                             </div>
                             <div class="py-3"></div>
-                            <h6 class="text-center">This website allows users to discover, review, and rate food
+                            <p class="text-start lead" style="font-size: 18px;">This website allows users to discover,
+                                review, and rate food
                                 establishments, enhancing their dining experiences. The website provides a searchable
                                 database of local restaurants, cafes, and food stalls, where users can read and write
                                 reviews, rate their experiences, and receive personalized dining recommendations.
-                            </h6>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <section id="Skills" class="bg-dark text-light align-items-center">
+        <div class="py-4"></div>
+        <div class="container">
+            <div class="row px-3">
+                <!-- Technical Skills -->
+                <div class="col-md-6">
+                    <h2 class="text-warning mb-4">Technical Skills</h2>
+                    <p class="text-start lead mb-4" style="font-size: 16px;">
+                        With a solid foundation in web development and design, I possess a diverse set of technical
+                        skills that enable me to create visually appealing and functional websites.
+                    </p>
+                    <div class="row g-4">
+                        <!-- Skill Card 1 -->
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-code-slash fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">HTML5 & CSS3</h5>
+                                    <p class="card-text small">Proficient in building structured and styled web pages.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Skill Card 2 -->
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-phone fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Responsive Design</h5>
+                                    <p class="card-text small">Experienced in creating mobile-friendly and responsive
+                                        layouts.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Skill Card 3 -->
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-github fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Git & GitHub</h5>
+                                    <p class="card-text small">Skilled in version control and collaborative coding.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Skill Card 4 -->
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-palette fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Figma</h5>
+                                    <p class="card-text small">Proficient in wireframing and prototyping designs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Management & Collaboration -->
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <h2 class="text-warning mb-4">Management & Collaboration</h2>
+                    <p class="text-start lead mb-4" style="font-size: 16px;">
+                        I excel in collaborative environments, leveraging tools and methodologies to deliver projects
+                        efficiently.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-kanban fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Agile Methodology</h5>
+                                    <p class="card-text small">Experienced in Agile practices for iterative development.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-list-task fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Task Management</h5>
+                                    <p class="card-text small">Skilled in organizing tasks using Trello.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-people fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Team Collaboration</h5>
+                                    <p class="card-text small">Proficient in using Slack for seamless communication.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-secondary text-light border-0">
+                                <div class="card-body text-center">
+                                    <i class="bi bi-lightbulb fs-3 text-warning mb-2"></i>
+                                    <h5 class="card-title mb-2">Problem-Solving</h5>
+                                    <p class="card-text small">Strong analytical skills to tackle challenges
+                                        effectively.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-4"></div>
+    </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
