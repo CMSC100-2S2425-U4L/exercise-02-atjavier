@@ -1,86 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Personal Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/logo/logo.jpg">
-                    Adrian Javier
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AutoBiography</a>
-                        </li>
-                    </ul>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow fixed-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="assets/Logos/portfolio.png" width="40" height="40" alt="">
+                </div>
+                <div class="col">
+                    <a href="#" class="navbar-brand">Adrian Jericho Javier</a>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class="col">
-            <div class="container">
-                <h2 class="text-center" style="font-size: 14px;">About Me</h2>
-            </div>
-            <div class="container-fluid">
-                <img>
-                <!-- place personal photo here -->
-            </div>
-            <div class="container-fluid">
-                <h2 class="text-center" style="font-size: 14px;">Projects</h2>
-            </div>
-            <div class="container-fluid gx-0">
-                <!-- place 2 cards for previous projects -->
-                <div class="row">
-                    <!-- UPLBidet -->
-                    <div class="col-sm-6 d-flex justify-content-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">UPLBidet</h5>
-                                <p class="card-text">Place here descriptions about the project</p>
-                                <a href="#" class="btn btn-primary">Check Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 d-flex justify-content-center">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Food Establishment and Review System</h5>
-                                <p class="card-text">Place the description for the project here</p>
-                                <a href="#" class="btn btn-primary">Check Project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="conatiner-fluid gx-0">
-                <h2 class="text-center" style="font-size: 14px;"> Skills</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#AboutMe" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact Me</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
+
+
+    <!-- Showcase -->
+    <div class="container p-4"></div>
+    <section id="AboutMe" class="bg-dark text-light p-5 text-center">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center px-5">
+                <div class="px-5"></div>
+                <div class="col-6">
+                    <h1 style="font-weight: 600;">About Me</h1>
+                    <div class="py-1"></div>
+                    <p class="lead"> Hi! I'm <span style="font-weight: 600;"> Adrian Jericho Javier </span>, a
+                        graduating Computer Science student from the <span class="text-warning">University of the
+                            Philippines Los Baños (UPLB)</span>
+                        With a keen interest in Frontend Web Design, I am always eager to learn and grow. I'm looking
+                        foward to opportunities that will allow me to hone my coding skills and explore new challenges
+                        in the tech industry.
+                    </p>
+                </div>
+                <div class="px-4"></div>
+                <img src="assets/Personal Photo/photo.jpg" class="rounded-pill w-25" alt="Description"
+                    class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section id="Projects" class="p-5 align-items-center shadow-lg">
+        <div class="py-4"></div>
+
+        <div class="container-fluid align-items-center">
+            <div class="col">
+                <h1 class="text-center" style="font-weight: 600;">Projects</h1>
+            </div>
+        </div>
+        <div class="py-2"></div>
+
+        <div class="row  px-5">
+            <div class="col-6">
+                <div class="container-fluid">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-center" style="font-weight: 600;">UPLBidet</h3>
+                            </div>
+                            <div class="py-2"></div>
+                            <div id="UPLBidetCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/assets/Projects/UPLBidet/Elbidet1.jpg" class="d-block" width="700"
+                                            height="390" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/assets/Projects/UPLBidet/Elbidet2.png" class="d-block" width="700"
+                                            height="390" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/assets/Projects/UPLBidet/Elbidet3.png" class="d-block" width="700"
+                                            height="390" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#UPLBidetCarousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#UPLBidetCarousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="py-3"></div>
+                            <h6 class="text-center">UPLBidet is a user-friendly platform designed to enhance campus
+                                facilities by providing convenient access to sanitation services. The website shows the
+                                location of every restroom on campus, along with user comments, ratings, and available
+                                amenities, helping users find the best facilities.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container-fluid">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3 class="text-center" style="font-weight: 600;">Food Establishment and Reviews System
+                                </h3>
+                            </div>
+                            <div class="py-2"></div>
+                            <div id="ReviewSystemCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="/assets/Projects/Review System/ReviewSystem1.png" class="d-block"
+                                            width="700" height="390" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/assets/Projects/Review System/ReviewSystem2.png" class="d-block"
+                                            width="700" height="390" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="/assets/Projects/Review System/ReviewSystem3.png" class="d-block"
+                                            width="700" height="390" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#ReviewSystemCarousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#ReviewSystemCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="py-3"></div>
+                            <h6 class="text-center">This website allows users to discover, review, and rate food
+                                establishments, enhancing their dining experiences. The website provides a searchable
+                                database of local restaurants, cafes, and food stalls, where users can read and write
+                                reviews, rate their experiences, and receive personalized dining recommendations.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
