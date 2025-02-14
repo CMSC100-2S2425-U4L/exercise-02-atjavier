@@ -2,51 +2,58 @@
 
 Welcome to my personal portfolio! This single-page static website showcases my skills, projects, and background as a graduating Computer Science student applying for a Frontend Software Engineer position at Gugil Co.
 
-## Table of Contents
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Skills](#skills)
-- [Contact Me](#contact-me)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
+---
 
-## About Me
-I'm **Adrian Jericho Javier**, a graduating Computer Science student from the **University of the Philippines Los Baños (UPLB)**. With a passion for Frontend Web Design, I am eager to learn, grow, and contribute to innovative projects in the tech industry.
+## Full Name
+**Adrian Jericho Javier**
 
-## Projects
-Here are some of the projects I've worked on:
-1. **UPLBidet**: A platform that helps users locate restrooms on campus, complete with reviews, ratings, and amenities.
-2. **Food Establishment and Reviews System**: A website for discovering, reviewing, and rating local food establishments.
+## Degree Program
+Bachelor of Science in Computer Science  
+**University of the Philippines Los Baños (UPLB)**
 
-## Skills
-### Technical Skills
-- HTML5 & CSS3
-- Responsive Web Design
-- Git & GitHub
-- Figma (Wireframing & Prototyping)
-- Basic JavaScript
-- Web Deployment (GitHub Pages)
+---
 
-### Management & Collaboration
-- Agile Methodology
-- Task Management (Trello)
-- Team Collaboration (Slack)
-- Problem-Solving
+## Live Website Link
+You can view my portfolio live here:  
+👉 [https://cmsc100-2s2425-u4l.github.io/exercise-02-atjavier/](https://cmsc100-2s2425-u4l.github.io/exercise-02-atjavier/)
 
-## Contact Me
-Feel free to reach out to me via:
-- **Phone**: 0976 170 8402
-- **Email**: atjavier1@up.edu.ph
-- **GitHub**: [github.com/atjavier](https://github.com/atjavier)
-- **Address**: Los Baños, Laguna
+---
 
-## Deployment
-This portfolio is deployed using **GitHub Pages**. To deploy your own version:
-1. Fork this repository.
-2. Go to the repository's **Settings**.
-3. Navigate to the **Pages** section.
-4. Under **Source**, select the `main` branch and click **Save**.
-5. Your site will be live at `https://<your-username>.github.io/<repository-name>/`.
+## Steps on How to Create a GitHub Page
+1. **Fork or Create a Repository**:
+   - Fork this repository or create a new one on GitHub.
+   - Name it `<your-username>.github.io` (e.g., `atjavier.github.io`) for automatic deployment.
+
+2. **Upload Your Files**:
+   - Add your `index.html`, CSS, images, and other assets to the repository.
+
+3. **Enable GitHub Pages**:
+   - Go to your repository's **Settings**.
+   - Navigate to the **Pages** section.
+   - Under **Source**, select the `main` branch (or `master` if applicable) and click **Save**.
+
+4. **View Your Live Site**:
+   - Your site will be live at `https://<your-username>.github.io`.
+
+---
+
+## Key Takeaways from This Exercise
+1. **GitHub Pages is Simple and Powerful**:
+   - Deploying a static website using GitHub Pages is straightforward and requires no additional hosting costs.
+
+2. **Responsive Design is Crucial**:
+   - Ensuring the website looks great on all devices (desktop, tablet, mobile) is essential for a good user experience.
+
+3. **Bootstrap Saves Time**:
+   - Using Bootstrap's pre-built components and grid system significantly speeds up development.
+
+4. **Content Organization Matters**:
+   - A well-structured portfolio with clear sections (About Me, Projects, Skills, Contact) makes it easier for recruiters to navigate.
+
+5. **Continuous Learning**:
+   - This exercise reinforced the importance of learning new tools and technologies to stay competitive in the tech industry.
+
+---
 
 ## Technologies Used
 - **HTML5**: For structuring the website.
